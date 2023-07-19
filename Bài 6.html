@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6</title>
+</head>
+<body>
+    <script>
+        let a=[1,2,3,4,5];
+        console.log("Mảng là: " + a);
+        let chanArray=[];
+        for(let i=0; i<a.length; i++){
+            if(a[i]%2===0){
+                chanArray.push(a[i]);
+            }
+        }
+        console.log("Các phần tử chẵn có trong mảng là: " + chanArray.join(" "));
+    </script>
+</body>
+</html>

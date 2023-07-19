@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+</head>
+<body>
+    <script>
+        let a=[1,2,3,4,5];
+        //Cách 2:
+        let b=Number(window.prompt("Nhập số cần kiểm tra: "));
+        let searchArray=false;
+        for(let i=0; i<a.length; i++){
+            if(b===a[i]){
+                searchArray=true;
+            }
+        }
+        // Cách 1:
+        // let searchArray=a.includes(5);
+        console.log(searchArray);
+    </script>
+</body>
+</html>
